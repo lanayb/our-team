@@ -2,7 +2,27 @@
   "dependencies": {
     "inquirer": "^8.2.0",
     "jest": "^27.4.7"
-  }
-  
+  },
+  "name": "our-team",
+  "description": "## Your Task",
+  "version": "1.0.0",
+  "main": "employee.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanayb/our-team.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanayb/our-team/issues"
+  },
+  "homepage": "https://github.com/lanayb/our-team#readme"
 }
-

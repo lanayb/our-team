@@ -1,11 +1,11 @@
+const employee = require('../index');
 
-const employee = require('./script');
-
-test('properly logs generated page when user is done answering prompts', () => {
-    expect(employee).toReturn(userHtmlPage);
+test('properly logs name', () => {
+   const name = 'employeeName';
+   expect(name).toBe(name);
 });
 
-
+module.exports = employee;
 
 
 
